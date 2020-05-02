@@ -1,0 +1,19 @@
+doctype html
+html(lang="ja")
+  head
+    meta(charset="UTF-8")
+    title クックサーチ
+  body    
+    h1 材料を入力
+    form(method="post" action=path)
+      span スペースで区切って材料を入力
+      input(type="text" name="ingredients")
+      br
+      br
+      input(type="radio" name="suff-ness" value="sufficient" checked)
+      span この材料でつくる
+      input(type="radio" name="suff-ness" value="necessary")
+      span 材料を買い足してつくる
+      br
+      br
+      button(type="submit") 検索

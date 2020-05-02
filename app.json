@@ -1,0 +1,8 @@
+{
+  "name": "Forms",
+  "description": "Forms about characters and roles",
+  "repository": "https://github.com/ckwam/cook-search",
+  "logo": "",
+  "keywords": ["node"],
+  "image": "heroku/node.js"
+}
